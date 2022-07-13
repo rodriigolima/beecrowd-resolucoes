@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package iniciante;
 
+import java.util.Scanner;
 public class Diferenca {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

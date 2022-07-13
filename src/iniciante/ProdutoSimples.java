@@ -1,7 +1,7 @@
+package iniciante;
 import java.util.Scanner;
 
-public class SomaSimples {
-    
+public class ProdutoSimples {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
@@ -9,13 +9,10 @@ public class SomaSimples {
         int a = input.nextInt();
         int b = input.nextInt();
 
-        int soma = a + b;
+        int prod = a * b;
 
-        System.out.printf("SOMA = %d\n", soma);
-
+        System.out.printf("PROD = %d\n", prod);
 
         input.close();
-
     }
-
 }
