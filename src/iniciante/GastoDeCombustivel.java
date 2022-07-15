@@ -12,8 +12,8 @@ public class GastoDeCombustivel {
         int t = (int) input.nextDouble();
         int v = (int) input.nextDouble();
 
-        double gasto = v*t; 
-        double l = gasto/12;
+        double d = v*t; 
+        double l = d/12;
 
         System.out.printf("%.3f\n", l);
 
