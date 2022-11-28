@@ -14,6 +14,7 @@ com um espaço antes e um espaço depois da igualdade. O valor deverá ser apres
 com 3 casas após o ponto.*/
 
 import java.util.*
+import kotlin.math.pow
 
 fun main(args: Array<String>) {
 
@@ -22,7 +23,7 @@ fun main(args: Array<String>) {
     val pi: Double = 3.14159
     val raio: Double = entrada.nextDouble()
 
-    val volume: Double = (4/3.0) * pi * Math.pow(raio, 3.0)
+    val volume: Double = (4/3.0) * pi * raio.pow(3.0)
 
     println("VOLUME = ${String.format("%.3f", volume)}")
 }
