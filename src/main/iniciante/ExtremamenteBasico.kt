@@ -13,11 +13,11 @@ Cuide para que tenha um espaço antes e depois do sinal de igualdade, conforme o
 import java.util.*
 
 fun main(args: Array<String>) {
-    val sc = Scanner(System.`in`)
+    val entrada = Scanner(System.`in`)
 
-    val a: String = sc.next()
-    val b: String = sc.next()
+    val a: Int = entrada.nextInt()
+    val b: Int = entrada.nextInt()
 
-    println("X = ${a.toInt() + b.toInt()}")
+    println("X = ${a + b}")
 }
 
